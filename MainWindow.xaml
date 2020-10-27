@@ -1,0 +1,24 @@
+﻿<Window x:Class="TheNextCar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheNextCar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid Background="Black" Height="434" VerticalAlignment="Bottom" >
+        <Button x:Name="StartButton" Content="STOPED" Click="OnStartButtonClicked" HorizontalAlignment="Left" Margin="124,309,0,0" VerticalAlignment="Top" Height="40" Width="150" Foreground="White" Background="Red" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="DoorOpenButton" Content="CLOSED" Click="OnDoorOpenButtonClicked" HorizontalAlignment="Left" Margin="327,323,0,0" VerticalAlignment="Top" Height="26" Width="84"/>
+        <Button x:Name="LockDoorButton" Content="LOCKED" Click="OnLockDoorButtonClicked" HorizontalAlignment="Left" Margin="447,323,0,0" VerticalAlignment="Top" Height="26" Width="84"/>
+        <Button x:Name="AccuButton" Content="ON" Click="OnAccuButtonClicked" HorizontalAlignment="Left" Margin="589,323,0,0" VerticalAlignment="Top" Height="26" Width="84"/>
+        <Label x:Name="status" Content="no power available" HorizontalAlignment="Left" Margin="124,357,0,0" VerticalAlignment="Top" Width="110" Foreground="White"/>
+        <Label x:Name="DoorOpenState" Content="Close" HorizontalAlignment="Left" Margin="327,349,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
+        <Label x:Name="LockDoorState" Content="Door is Unlocked" HorizontalAlignment="Left" Margin="447,349,0,0" VerticalAlignment="Top" Width="114" Foreground="White"/>
+        <Label x:Name="AccuState" Content="no power" HorizontalAlignment="Left" Margin="589,349,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
+        <Label x:Name="Door" Content="Door" HorizontalAlignment="Left" Margin="327,297,0,0" VerticalAlignment="Top" Width="66" Foreground="White"/>
+        <Label x:Name="Security" Content="Security" HorizontalAlignment="Left" Margin="447,297,0,0" VerticalAlignment="Top" Width="84" Foreground="White"/>
+        <Label x:Name="Power" Content="Power" HorizontalAlignment="Left" Margin="589,297,0,0" VerticalAlignment="Top" Width="64" Foreground="White"/>
+        <Image Margin="124,10,124,149" Stretch="Fill" Source="pack://siteoforigin:,,,/navigation.jpg"/>
+    </Grid>
+</Window>
