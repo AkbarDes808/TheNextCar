@@ -29,6 +29,7 @@ namespace TheNextCar
             InitializeComponent();
             AccubaterryController accubaterryController = new AccubaterryController(this);
             DoorController doorController = new DoorController(this);
+            nextCar = new Car(accubaterryController, doorController, this);
         }
         public void carEngineStatusChanged(string value, string message)
         {
@@ -64,13 +65,13 @@ namespace TheNextCar
             this.nextCar.toggleThePowerButton();
         }
 
-        private void OnDoorOpenButtonClicked(object sender,
+        private void OnLockDoorButtonClicked(object sender,
                 RoutedEventArgs e)
         {
             this.nextCar.toggleTheLoockDoorButton();
             Console.WriteLine("button pintu");    
         }
-        private void OnLockDoorButtonClicked(object sender,
+        private void OnDoorOpenButtonClicked(object sender,
                RoutedEventArgs e)
         {
             Console.WriteLine("button kunci pintu");

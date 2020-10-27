@@ -19,13 +19,13 @@ namespace TheNextCar.Controller
         public void close()
         {
             this.door.close();
-            this.onDoorChanged.doorStatusChanged("CLOSED", "dor is closed");
+            this.onDoorChanged.doorStatusChanged("CLOSED", "door is closed");
         }
 
         public void open()
         {
             this.door.open();
-            this.onDoorChanged.doorStatusChanged("OPENED", "dor is opened");
+            this.onDoorChanged.doorStatusChanged("OPENED", "door is opened");
         }
 
         public void activateLock()
