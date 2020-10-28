@@ -4,7 +4,6 @@ E:\Kampus\Program\TheNextCar\bin\Debug\netcoreapp3.1\TheNextCar.runtimeconfig.js
 E:\Kampus\Program\TheNextCar\bin\Debug\netcoreapp3.1\TheNextCar.runtimeconfig.dev.json
 E:\Kampus\Program\TheNextCar\bin\Debug\netcoreapp3.1\TheNextCar.dll
 E:\Kampus\Program\TheNextCar\bin\Debug\netcoreapp3.1\TheNextCar.pdb
-E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\TheNextCar.csprojAssemblyReference.cache
 E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\App.g.cs
 E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\TheNextCar_MarkupCompile.cache
@@ -17,3 +16,4 @@ E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\TheNextCar.csproj.CoreCompi
 E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\TheNextCar.dll
 E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\TheNextCar.pdb
 E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\TheNextCar.genruntimeconfig.cache
+E:\Kampus\Program\TheNextCar\obj\Debug\netcoreapp3.1\TheNextCar.csprojAssemblyReference.cache
