@@ -1,5 +1,5 @@
 # TheNextCar
-Tugas ke 4
+Tugas ke 3
 
 2. Door controller berfungsi untuk mengatur tombol DoorOpenButton agar dapat berfungsi
 3. Model Door berfungsi untuk menapilkan data DoorOpenState apakah colsed atau open sesuai dengan tombol yang telah ditekan
